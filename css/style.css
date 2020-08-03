@@ -1,0 +1,75 @@
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+#main-header .bg-black {
+    color: #ffffff;
+    background: #000000;
+}
+
+#main-header .menu-item {
+    width: 30%;
+}
+
+#main-header .menu-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#home .bg-success {
+    background: #6abedf !important;
+}
+
+.one {
+    background-color: #c24e00;
+}
+
+i {
+    color: white;
+    transition: all 0.4s;
+}
+
+i:hover {
+    color: black;
+}
+
+.two {
+    background-color: #fcae1e;
+}
+
+.three {
+    background-color: #ed7117;
+}
+
+.four {
+    background-color: #b56727;
+}
+
+.five {
+    background-color: #dd571c;
+}
+
+.six {
+    background-color: #d67229;
+}
+
+.slide {
+    flex: 0 0 20%;
+    background-color: rgba(254, 159, 50, 0.664);
+    border-radius: 10px;
+}
+
+.slide:hover {
+    transition: all 0.5s;
+    transform: scale(1.05s);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+}
+
+@media(min-width:1199px) {
+    .menu-item {
+        padding: 3rem !important;
+    }
+}
+
+@media(min-width:1024px) {}
